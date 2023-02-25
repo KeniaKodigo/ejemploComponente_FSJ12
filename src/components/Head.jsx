@@ -44,12 +44,7 @@ export default class Head extends Component {
         console.log("estado viejo: ", prevState);
         console.log("estado nuevo:", this.state);
     }
-    /**
-     * 
-     * @returns 
-     * props => sirven para pasar datos (props.nombre)
-     * estado
-     */
+
     render() {
         console.log(this.state.apellido);
         console.log(this.state.contador);

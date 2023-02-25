@@ -2,6 +2,7 @@ import './App.css'
 import Nav from './components/Nav'
 import Head from './components/Head'
 import Lista from './components/Lista'
+import Prueba from './components/Prueba'
 
 /** componente funcional  */
 function App() {
@@ -15,6 +16,7 @@ function App() {
       <Head nombre="Rodrigo"/>
       <Nav /> */}
       <Lista />
+      <Prueba saludo="Hola chicos" descripcion="ghjj"/>
     </div>
   )
 }

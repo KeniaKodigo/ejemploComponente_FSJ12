@@ -4,7 +4,7 @@ import data from './data.json'; //importamos el json
 export default class Lista extends Component {
     //aqui estamos declarando el estado sin constructor
     state = {
-        personas: data
+        personas: data //[]
     }
 
     render() {
